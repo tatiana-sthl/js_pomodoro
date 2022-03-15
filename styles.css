@@ -1,14 +1,3 @@
-/* ==========================================================================
-   #POMODORO APP STYLES
-   ========================================================================== */
-
-/**
- *
- * Inheriting box sizing slightly better best-practice
- * https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
- *
- */
-
 html {
   box-sizing: border-box;
 }
@@ -20,13 +9,14 @@ html {
 }
 
 :root {
-  --pomodoro: hsl(223, 25%, 40%);
-  --shortBreak: hsl(48, 23%, 40%);
-  --longBreak: hsl(105, 16%, 40%);
+  --pomodoro:url("https://images.pexels.com/photos/1770645/pexels-photo-1770645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  --shortBreak: url("https://images.pexels.com/photos/1122870/pexels-photo-1122870.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  --longBreak: url("https://images.pexels.com/photos/1887609/pexels-photo-1887609.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 }
 
 body {
-  background-color: var(--pomodoro);
+  background-image: var(--pomodoro);
+  background-size: var(--pomodoro);
   transition: background-color 1s ease;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   user-select: none;
