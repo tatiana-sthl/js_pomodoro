@@ -9,9 +9,9 @@ html {
 }
 
 :root {
-  --pomodoro:url("https://images.pexels.com/photos/1770645/pexels-photo-1770645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  --shortBreak: url("https://images.pexels.com/photos/1122870/pexels-photo-1122870.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  --longBreak: url("https://images.pexels.com/photos/1887609/pexels-photo-1887609.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  --pomodoro:url("https://images.pexels.com/photos/2567106/pexels-photo-2567106.jpeg?auto=compress&cs=tinysrgb&h=1800&w=1960");
+  --shortBreak: url("https://images.pexels.com/photos/2010945/pexels-photo-2010945.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1000");
+  --longBreak: url("https://images.pexels.com/photos/699919/pexels-photo-699919.jpeg?auto=compress&cs=tinysrgb&h=1200&w=1960");
 }
 
 body {
