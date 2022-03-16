@@ -11,14 +11,13 @@ html {
 :root {
   --pomodoro:url("https://images.pexels.com/photos/2567106/pexels-photo-2567106.jpeg?auto=compress&cs=tinysrgb&h=1800&w=1960");
   --shortBreak: url("https://images.pexels.com/photos/2010945/pexels-photo-2010945.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1000");
-  --longBreak: url("https://images.pexels.com/photos/699919/pexels-photo-699919.jpeg?auto=compress&cs=tinysrgb&h=1200&w=1960");
+  --longBreak: url("https://images.pexels.com/photos/699919/pexels-photo-699919.jpeg?auto=compress&cs=tinysrgb&h=1300&w=2000");
 }
 
 body {
   background-image: var(--pomodoro);
   background-size: var(--pomodoro);
-  transition: background-color 1s ease;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Lora', serif;
   user-select: none;
 }
 
@@ -35,7 +34,7 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
-  background-color: #fff;
+  background-color: #C2B374;
 }
 
 .timer {
@@ -54,7 +53,8 @@ progress::-webkit-progress-value {
   line-height: 1;
   display: flex;
   align-items: center;
-  font-family: arial, sans-serif;
+  font-family: 'Lora', serif;
+  color: #fff;
 }
 
 .mode-button {
@@ -62,12 +62,13 @@ progress::-webkit-progress-value {
   height: 28px;
   cursor: pointer;
   box-shadow: none;
-  font-weight: 300;
+  font-weight: 500;
   color: #fff;
   border: 1px solid transparent;
   margin: 0px;
   border-radius: 4px;
   padding: 2px 12px;
+  font-family: 'Lora', serif;
   background: none;
 }
 
@@ -77,18 +78,19 @@ progress::-webkit-progress-value {
 
 .main-button {
   cursor: pointer;
-  box-shadow: rgb(235, 235, 235) 0px 6px 0px;
+  box-shadow: #C2B374 0px 6px 0px;
   font-size: 22px;
-  height: 55px;
+  height: 38px;
   text-transform: uppercase;
-  color: hsl(175, 26%, 41%);
+  color: #C2B374;
   font-weight: bold;
-  width: 200px;
+  width: 100px;
   background-color: white;
+  font-family: 'Lora', serif;
   border-width: initial;
   border-style: none;
   margin: 20px 0px 0px;
-  padding: 0px 12px;
+  padding: 2px 12px;
   border-radius: 4px;
   transition: color 0.5s ease-in-out 0s;
 }
