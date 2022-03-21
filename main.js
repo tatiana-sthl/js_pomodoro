@@ -67,7 +67,7 @@ function startTimer() {
             }
             
             if (Notification.permission === "granted") {
-                const text = timer.mode === "pomodoro" ? "Back to Work Beauty !" : "Take a Break Sweety...";
+                const text = timer.mode === "pomodoro" ? "Work work work !" : "Take a Break Sweety...";
                 new Notification(text);
             }
 
@@ -94,7 +94,7 @@ function updateClock() {
     min.textContent = minutes;
     sec.textContent = seconds;
 
-    const text = timer.mode === "pomodoro" ? "Back to Work Beauty !" : "Take a Break Sweety...";
+    const text = timer.mode === "pomodoro" ? "Work work work !" : "Take a Break Sweety...";
     document.title = `${minutes}:${seconds} - ${text}`;
 
     const progress = document.getElementById("js-progress");
